@@ -195,6 +195,11 @@ body{
     margin-top: 1em;
 }
 
+.contact-section{
+   width: 100vw;
+   background-color: #fff;
+}
+
 .contact-headings h2{
    font-size: 2.5em;
 }
@@ -226,4 +231,13 @@ body{
 
 .btn-submit:hover {
    background-color: beige;
+}
+
+.footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 200px;
 }
