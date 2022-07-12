@@ -87,7 +87,7 @@ body{
  }
 
  .download-cv:hover{
-    background-color: #fff;
+    background-color: beige;
  }
 
  .about{
@@ -193,4 +193,37 @@ body{
     width: 100%;
     justify-content: center;
     margin-top: 1em;
+}
+
+.contact-headings h2{
+   font-size: 2.5em;
+}
+
+.container-contact {
+   padding: 3em;
+   margin: 0 auto;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   width: 30vh;
+   margin-top: 2em;
+}
+
+.form input {
+   color: black;
+}
+
+.btn-submit {
+   padding: 10px 20px;
+   background-color: #F1C40F;
+   border: none;
+   border-radius: 20px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+.btn-submit:hover {
+   background-color: beige;
 }
