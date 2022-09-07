@@ -228,8 +228,11 @@ body{
 .form {
    display: flex;
    flex-direction: column;
-   width: 30vh;
+   justify-content: center;
+   align-items: center;
+   width: auto;
    margin-top: 2em;
+
 }
 
 .form input {
@@ -249,12 +252,22 @@ body{
    background-color: beige;
 }
 
-
 .footer-contemt {
-   
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 100vw;
+   height: auto;
+   background-color: #D6EAF8;
+}
+
+.social-network{
+   display: flex;
    justify-content: center;
    flex-direction: row;
    align-items: center;
-   width: 100%;
+   width: 100vw;
    height: auto;
+   background-color: #D6EAF8;
 }
