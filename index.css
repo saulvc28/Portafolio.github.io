@@ -213,7 +213,7 @@ body{
    display: flex;
    flex-direction: column;
    justify-content: start;
-   width: 100%;
+   width: 100vw;
    height: auto;
    background-color: #fff;
    padding: 5em;
@@ -228,9 +228,7 @@ body{
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   width: 100%;
-   height: auto;
-   padding: 3em;
+   width: auto;
 }
 
 .contact-form{
@@ -256,6 +254,7 @@ body{
 }
 
 .btn-submit {
+   justify-content: center;
    padding: 10px 20px;
    background-color: #F1C40F;
    border: none;
