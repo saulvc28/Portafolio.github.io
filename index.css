@@ -210,6 +210,9 @@ body{
 }
 
 .contact-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
    width: 100%;
    height: auto;
    background-color: #fff;
@@ -221,8 +224,21 @@ body{
 }
 
 .container-contact {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    width: 100%;
    height: auto;
+   padding: 3em;
+}
+
+.contact-form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
 }
 
 .form {
